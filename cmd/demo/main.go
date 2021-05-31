@@ -13,5 +13,8 @@ func main() {
 	}
 	for _, e := range entries {
 		fmt.Printf("%s = %s\n", e.YMD, e.Name)
+		fmt.Printf("Year = %d\n", e.Year)
+		fmt.Printf("Month = %d\n", e.Month)
+		fmt.Printf("Day = %d\n", e.Day)
 	}
 }
